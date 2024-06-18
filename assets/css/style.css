@@ -9,6 +9,8 @@
   --branco: #FFFFFF;
   --preto: #000000;
   --azul-forte: #4328EB;
+  --azul:#007AAE;
+  --azul-suave:#E2EAF2;
 
   /* font family */
   --content-font: "Poppins", sans-serif;
@@ -21,7 +23,7 @@ header{
 }
 
 .logo-image{
-  padding: 1rem 0 1rem 2rem;
+  padding: 1rem 0 1rem 1.5rem;
   width:80px;
   height:80px;
 }
@@ -48,10 +50,9 @@ header{
   text-decoration: none;
   padding: 0 1rem;
   font-size: 1.3rem;
+  font-weight:bold;
   color:var(--azul-forte);
   font-family:var(--roboto-font);
 }
 
-body{
-  background-color: black;
-}
+

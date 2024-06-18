@@ -1,0 +1,17 @@
+#inicio{
+  background:var(--azul-suave);
+  padding:0 8rem;
+}
+
+.conteiner-begin{
+  display:flex;
+  justify-content:space-between;
+}
+
+#inicio h1{
+  color:var(--azul);
+}
+
+.img-cerebro{
+  width: 40%;
+}
