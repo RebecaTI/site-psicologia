@@ -9,7 +9,7 @@
   --branco: #FFFFFF;
   --preto: #000000;
   --azul-forte: #4328EB;
-  --azul:#007AAE;
+  --azul:#015f87;
   --azul-suave:#E2EAF2;
 
   /* font family */
@@ -51,7 +51,7 @@ header{
   padding: 0 1rem;
   font-size: 1.3rem;
   font-weight:bold;
-  color:var(--azul-forte);
+  color:var(--preto);
   font-family:var(--roboto-font);
 }
 

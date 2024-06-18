@@ -1,6 +1,6 @@
 #inicio{
+  padding:3rem 8rem;
   background:var(--azul-suave);
-  padding:0 8rem;
 }
 
 .conteiner-begin{
@@ -10,8 +10,46 @@
 
 #inicio h1{
   color:var(--azul);
+  font-family: var(--sansita-font);
+  font-size:3rem;
+  font-style:italic;
+  padding-bottom:2rem;
+  flex-wrap: nowrap;
+
+  /* Adicionando o nowrap p testar as fontes */
+
+
+
+
+}
+
+.content-begin h2{
+  font-size: 1.5rem;
+  font-family:var(--sansita-font);
+  font-weight: 500;
+  padding-bottom: 2rem;
+}
+
+.content-begin ul{
+  display:flex;
+  flex-direction: column;
+  align-content:space-around;
+  flex-wrap:wrap;
+}
+
+.text-content{
+  font-family:var(--content-font);
+  padding-bottom: 1rem;
+}
+
+.img-logo{
+  width:10%;
 }
 
 .img-cerebro{
-  width: 40%;
+  width: 60%;
+}
+
+.img-logo-simbol{
+  width:8%;
 }
