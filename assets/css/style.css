@@ -1,0 +1,30 @@
+*{
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;;
+}
+
+:root{
+  --branco: #FFFFFF;
+}
+
+header{
+  background:var(--branco);
+}
+
+.logo-image{
+  padding: 1rem 0 1rem 2rem;
+  width:70px;
+  height:70px
+}
+
+.nav-bar{
+  display:flex;
+  align-content: center;
+  justify-content:space-between;
+}
+
+body{
+  background-color: red;
+}
