@@ -68,3 +68,8 @@
   right:0;
   bottom:0;
 }
+
+.content-begin,
+.img-begin{
+  flex:1;
+}
