@@ -10,9 +10,11 @@
 
 #inicio h1{
   color:var(--azul);
+  text-transform:uppercase;
   font-family: var(--sansita-font);
   font-size:3rem;
-  font-style:italic;
+  /* font-style:italic; */
+  letter-spacing: 2px;
   padding-bottom:2rem;
   flex-wrap: nowrap;
 
