@@ -20,8 +20,8 @@
 
   /* font family */
   --content-font: "Poppins", sans-serif;
-   --sansita-font:  "Sansita", sans-serif; /* font-style:  italic   */
-   --roboto-font: "Roboto", sans-serif;/*  */
+  --sansita-font:  "Sansita", sans-serif; /* font-style:  italic   */
+  --roboto-font: "Roboto", sans-serif;/*  */
 }
 
 header{

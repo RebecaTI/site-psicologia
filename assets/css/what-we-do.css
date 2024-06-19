@@ -13,9 +13,11 @@
   align-self:center;
 }
 
+
+
 .conteiner-what-we-do{
   display:flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .do-list dt{
@@ -26,6 +28,7 @@
   left:-30px;
   position:relative;
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .do-list dt::before{
@@ -39,3 +42,9 @@
   left:-15px;
   position:relative;
 }
+
+.do-list dd{
+  font-family:var(--content-font);
+  padding-bottom:1.5rem;
+}
+
