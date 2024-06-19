@@ -20,6 +20,7 @@
   flex-wrap: nowrap;
 }
 .content-begin{
+  height:100%;
   display:flex;
   /* justify-content: space-between; */
   align-self:stretch;
@@ -67,9 +68,4 @@
   position:absolute;
   right:0;
   bottom:0;
-}
-
-.content-begin,
-.img-begin{
-  flex:1;
 }
