@@ -6,6 +6,7 @@
 .conteiner-begin{
   display:flex;
   justify-content:space-between;
+  
 }
 
 #inicio h1{
@@ -21,7 +22,7 @@
 .content-begin{
   display:flex;
   /* justify-content: space-between; */
-  align-items:flex-start;
+  align-self:stretch;
   flex-direction:column;
 }
 
@@ -58,7 +59,7 @@
 }
 
 .img-cerebro{
-  width: 75%;
+  width: 65%;
 }
 
 .img-logo-simbol{
