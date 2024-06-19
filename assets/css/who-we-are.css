@@ -40,3 +40,8 @@
 .txt-who-we-are span{
   color: #6CF3D5;
 }
+
+.icon-who-we-are{
+  width: 30%;
+  align-self: center;
+}
