@@ -1,5 +1,5 @@
 #inicio{
-  padding:3rem 8rem;
+  padding: 2rem 8rem;
   background:var(--azul-suave);
 }
 
@@ -17,19 +17,13 @@
   letter-spacing: 2px;
   padding-bottom:2rem;
   flex-wrap: nowrap;
-
-  /* Adicionando o nowrap p testar as fontes */
-
-
-
-
 }
 
 .content-begin h2{
   font-size: 1.5rem;
   font-family:var(--sansita-font);
   font-weight: 500;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 
 .content-begin ul{
@@ -41,17 +35,29 @@
 
 .text-content{
   font-family:var(--content-font);
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
+}
+
+.img-begin{
+  display:flex;
+  justify-content: center;
+  position:relative;
 }
 
 .img-logo{
-  width:10%;
+  width:15%;
+  position:absolute;
+  left: 0;
+  top:0;
 }
 
 .img-cerebro{
-  width: 60%;
+  width: 75%;
 }
 
 .img-logo-simbol{
-  width:8%;
+  width:12%;
+  position:absolute;
+  right:0;
+  bottom:0;
 }
