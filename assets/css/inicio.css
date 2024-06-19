@@ -67,3 +67,21 @@
   right:0;
   bottom:0;
 }
+
+.container-button-begin{
+  display:flex;
+  justify-content:space-around;
+}
+
+.button-begin{
+  color:white;
+  background-color: var(--azul-reluzente);
+  border: none;
+  padding: .5rem 1rem;
+  border-radius:10px;
+  transition: .5s;
+}
+
+.button-begin:hover{
+  background-color: var(--azul);
+}
