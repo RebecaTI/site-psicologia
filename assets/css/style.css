@@ -13,6 +13,10 @@
   --azul-reluzente: #00B5E2;
   --azul-suave:#E2EAF2;
   --amarelo-suave:#EAE2CF;
+  --amarelo-suave-escurecido: #EAE2CF;
+  --azul-intenso: #0d3777;
+  --verde-azulado:#26979F;
+  --vermelho:#E84D5B;
 
   /* font family */
   --content-font: "Poppins", sans-serif;
@@ -58,7 +62,8 @@ header{
 }
 
 #inicio,
-#who-we-are {
+#who-we-are,
+#what-we-do{
   padding: 2rem 6rem;
 }
 
