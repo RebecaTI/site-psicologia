@@ -6,7 +6,6 @@
 .conteiner-begin{
   display:flex;
   justify-content:space-between;
-  
 }
 
 #inicio h1{
@@ -22,7 +21,7 @@
 .content-begin{
   height:100%;
   display:flex;
-  /* justify-content: space-between; */
+  justify-content: space-around; 
   align-self:stretch;
   flex-direction:column;
 }

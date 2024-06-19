@@ -11,6 +11,7 @@
   --azul-forte: #4328EB;
   --azul:#015f87;
   --azul-suave:#E2EAF2;
+  --amarelo-suave:#EAE2CF;
 
   /* font family */
   --content-font: "Poppins", sans-serif;
@@ -55,8 +56,10 @@ header{
   font-family:var(--roboto-font);
 }
 
-
+#inicio,
+#who-we-are {
+  padding: 2rem 6rem;
+}
 .important-notes{
-  font-size: 2rem;
   padding: 2rem 3rem;
 }
