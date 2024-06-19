@@ -18,6 +18,12 @@
   padding-bottom:2rem;
   flex-wrap: nowrap;
 }
+.content-begin{
+  display:flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  flex-direction:column;
+}
 
 .content-begin h2{
   font-size: 1.5rem;
