@@ -36,8 +36,7 @@
 .content-begin ul{
   display:flex;
   flex-direction: column;
-  align-content:space-around;
-  flex-wrap:wrap;
+  
 }
 
 .text-content{
