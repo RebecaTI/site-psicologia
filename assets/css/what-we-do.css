@@ -25,6 +25,7 @@
   padding-bottom: 1rem;
   left:-30px;
   position:relative;
+  text-transform: uppercase;
 }
 
 .do-list dt::before{
@@ -35,6 +36,6 @@
   background:var(--vermelho);
   margin-right:.5rem;
   top: -5px;
-  left:-25px;
+  left:-15px;
   position:relative;
 }
