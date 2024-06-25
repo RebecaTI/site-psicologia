@@ -12,7 +12,7 @@
 
   /* Title Familen Grotesk  font-weight= regular   font-weight:36  */
   /* Title Familen Grotesk  font-weight= regular   font-weight:32  */
-  --title_and_sub-title_font: "Familjen Grotesk", sans-serif;
+  --title_font: "Familjen Grotesk", sans-serif;
 }
 
 *{
@@ -24,12 +24,13 @@
 
 html{
   background:var(--main_background);
+  height: 100vw;
 }
 
 header{
   background:var(--branco);
   width:95%;
-  border-radius:15px;
+  border-radius:5px;
   position:fixed;
   left:2.5%;
   top:2%;
@@ -83,3 +84,30 @@ header{
 .banner_txt p{
   color:var(--branco);
 }
+
+/* default margin and padding*/
+#who_we_are{
+  background-color: var(--branco); 
+  margin: 40px;
+  padding:20px;
+  border-radius:20px;
+}
+
+/*default sub-tittle line */
+.who_we_are_tittle::before{
+  content:'';
+  height:3px;
+  width:50%;
+  background:var(--azul_forte);
+  position:absolute;
+  top:100%;
+  left:0;
+  left: 25%;
+  border-radius:80%;
+}
+
+
+
+
+
+
