@@ -44,9 +44,9 @@ header{
 }
 
 .logo_image{
-  width:10%;
+  width:5%;
   margin-top:.5rem;
-  padding: .5rem 0 .5rem 1.5rem;
+  padding: .1rem 0 .5rem 1.5rem;
 }
 
 .nav_bar{
@@ -79,8 +79,11 @@ header{
 
 .nav_bar li:hover a:before{
   width: 100%;
-  /* transform: translateX(100%); */
 }
+
+
+
+
 
 #inicio,
 #who-we-are,
