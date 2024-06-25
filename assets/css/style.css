@@ -1,3 +1,20 @@
+:root{
+  --main_background:#F3F4FC;
+
+  --branco: #FFFFFF;
+  --preto: #000000;
+  --azul_forte: #1C2ECD;
+  --azul:#120AA1;
+
+  /* font family */
+  /* Open Sans =   Sans Serif Collection */
+  --content_font: "Open Sans", sans-serif;
+
+  /* Title Familen Grotesk  font-weight= regular   font-weight:36  */
+  /* Title Familen Grotesk  font-weight= regular   font-weight:32  */
+  --title_and_sub-title_font: "Familjen Grotesk", sans-serif;
+}
+
 *{
   box-sizing:border-box;
   margin: 0;
@@ -5,60 +22,63 @@
   font-size: 18px;
 }
 
-:root{
-  --branco: #FFFFFF;
-  --preto: #000000;
-  --azul-forte: #4328EB;
-  --azul:#015f87;
-  --azul-reluzente: #00B5E2;
-  --azul-suave:#E2EAF2;
-  --amarelo-suave:#EAE2CF;
-  --amarelo-suave-escurecido: #EAE2CF;
-  --azul-intenso: #0d3777;
-  --verde-azulado:#26979F;
-  --vermelho:#E84D5B;
-
-  /* font family */
-  --content-font: "Poppins", sans-serif;
-  --sansita-font:  "Sansita", sans-serif; /* font-style:  italic   */
-  --roboto-font: "Roboto", sans-serif;/*  */
+html{
+  background:black;
+  height: 100vw;
 }
 
 header{
   background:var(--branco);
+  width:95%;
+  border-radius:15px;
+  position:fixed;
+  left:2.5%;
+  top:2%;
+  z-index:1000;
 }
 
-.logo-image{
-  padding: 1rem 0 1rem 1.5rem;
-  width:80px;
-  height:80px;
-}
-
-.nav-bar{
+.container_header{
   display:flex;
+  align-items: center;
   justify-content:space-between;
 }
 
-.nav-list{
-  display:flex;
-  align-content: center;
-  flex-wrap:wrap;
+.logo_image{
+  margin-top:.5rem;
+  padding: .5rem 0 .5rem 1.5rem;
 }
 
-.nav-list ul{
+.nav_bar{
   display:flex;
-  list-style:none;
-  padding-right:1rem;
-  align-content:center;
 }
 
-.nav-item a{
+.nav_bar li{
+  list-style: none;
+  margin-right: 1rem;
+}
+
+.nav_bar li a{
   text-decoration: none;
-  padding: 0 1rem;
-  font-size: 1.3rem;
-  font-weight:bold;
   color:var(--preto);
-  font-family:var(--roboto-font);
+  font-family: var(--content_font);
+  position:relative;
+}
+
+.nav_bar li a:before{
+  content: '';
+  width:0%;
+  height:3px;
+  border-radius: 50%;
+  background:var(--azul_forte);
+  position:absolute;
+  top:100%;
+  left: 0%;
+  transition:.5s;
+}
+
+.nav_bar li:hover a:before{
+  width: 100%;
+  /* transform: translateX(100%); */
 }
 
 #inicio,
