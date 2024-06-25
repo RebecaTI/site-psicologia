@@ -1,0 +1,52 @@
+.banner{
+  position: relative; 
+  width: 100%; 
+  height: 0; 
+  padding-top: 56.2225%;
+  padding-bottom: 0; 
+  box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); 
+  overflow: hidden;
+  border-radius: 8px; 
+  will-change: transform;
+} 
+
+  .video_supervisao,
+  .banner_txt,
+  .banner_psicologia{
+  position: absolute;
+ }
+  .video_supervisao{
+     width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;
+  }
+
+  .banner_txt{
+    top:20%;
+    left:5%;
+    font-family:var(--content_font);
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    z-index:1;
+  }
+
+  .banner_txt_1{
+    font-size: 5rem;
+  } 
+
+  .banner_txt_2{
+    font-size: 2rem;
+  }
+
+  .banner_txt_3{
+    font-size: 4rem;
+  }
+  
+  .banner_psicologia{
+    width:100px;
+    height:100px;
+    bottom:25%;
+    left:85%;
+    z-index:1;
+  }
+
+  

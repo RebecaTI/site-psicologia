@@ -23,8 +23,7 @@
 }
 
 html{
-  background:black;
-  height: 100vw;
+  background:var(--main_background);
 }
 
 header{
@@ -81,21 +80,6 @@ header{
   width: 100%;
 }
 
-
-
-
-
-#inicio,
-#who-we-are,
-#what-we-do{
-  padding: 2rem 6rem;
-}
-
-
-.important-notes{
-  padding: 1rem 3rem;
-}
-
-.final-pagina{
-  height:20vw;
+.banner_txt p{
+  color:var(--branco);
 }
