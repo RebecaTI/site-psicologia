@@ -1,0 +1,25 @@
+.container_why_choose_us{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  padding-bottom: 2em;
+}
+
+.img_why_choose_us{
+  width: 100%;
+}
+
+.why_choose_us_items{
+  padding:1em 0;
+}
+
+.why_choose_us_items dt{
+  color:var(--azul_forte);
+  font-size:32px;
+  padding-top:1em;
+  padding-bottom: .4em;
+  font-family: var(--title_font);
+}
+
+.why_choose_us_items dd{
+  font-family: var(--content_font);
+}
