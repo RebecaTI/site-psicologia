@@ -1,9 +1,4 @@
-.who_we_are_tittle{
-  font-family: var(--title_font);
-  text-align:center;
-  margin-bottom:2rem;
-  position:relative;
-}
+
 
 #who_we_are p{
   padding-bottom:1rem;

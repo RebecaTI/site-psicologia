@@ -86,7 +86,8 @@ header{
 }
 
 /* default margin and padding*/
-#who_we_are{
+#who_we_are,
+#group_details{
   background-color: var(--branco); 
   margin: 40px;
   padding:20px;
@@ -94,7 +95,16 @@ header{
 }
 
 /*default sub-tittle line */
-.who_we_are_tittle::before{
+.who_we_are_tittle,
+.group_details_tittle{
+  font-family: var(--title_font);
+  text-align:center;
+  margin-bottom:2rem;
+  position:relative;
+}
+
+.who_we_are_tittle::before,
+.group_details_tittle::before{
   content:'';
   height:3px;
   width:30%;
