@@ -51,7 +51,7 @@
 }*/
 
 
-.services h2,
+.services_last_value,
 .services h2 span{
   font-size:32px;
   padding-bottom:1em;
@@ -81,13 +81,19 @@
   text-decoration:none;
 }
 
-.services p{
-  padding:3em 12em 1em 12em;
+.services_text{
+  padding:3em 12em 2em 12em;
+}
+
+.text{
+  text-transform: uppercase;
+  letter-spacing:1px;
 }
 
 .service_link_2{
   color:var(--branco);
   font-family:var(--title_font);
+  font-size: 1rem;
   text-decoration:none;
   cursor:pointer;
   position:relative;
@@ -98,7 +104,7 @@
   position:absolute;
   content:'';
   width:0%;
-  height:6px;
+  height:5px;
   border-radius:100%;
   background:var(--azul-_neon);
   top:100%;
@@ -109,6 +115,83 @@
   width:100%;
 }
 
+.steps_service{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+
 .steps_service h2{
-  align-self: center;
+  font-family:var(--title_font);
+  font-size: 2em;
+  font-weight:200;
+  letter-spacing: 1px;
+}
+
+.container_card_service{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+  max-width:1200px;
+  margin: 20px;
+}
+
+.container_card_service .card_service{
+  position:relative;
+  min-width:320px;
+  height:325px;
+  margin:30px;
+}
+
+.container_card_service .card_service .box{
+  position:absolute;
+  top:20px;
+  left:20px;
+  bottom:20px;
+  border: 2px solid #BBBBBB;
+  border-radius:15px;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  overflow:hidden;
+}
+
+.container_card_service .card_service .box .content_card_service h2{
+  position:absolute;
+  top:-10px;
+  right:30px;
+  font-size:5em;
+  padding-bottom:1em;
+  color:rgba(255, 255, 255, 0.15);
+}
+
+.container_card_service .card_service .box .content_card_service h3{
+  text-transform:uppercase;
+  color:#3BF1F4;
+  font-family: var(--content_font);
+  font-weight:200;
+  letter-spacing:1px;
+  padding-bottom:.3em;
+  margin:0 1em;
+}
+
+.container_card_service .card_service .box .content_card_service p{
+  line-height:1.5em;
+  margin:0 1em;
+  font-family: var(--content_font);
+  font-size: 1rem;
+  font-weight:300;
+}
+
+.service_remember{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.service_remember p{
+  margin-top:1em;
+  text-transform: uppercase;
+  letter-spacing:1px;
 }
