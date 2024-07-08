@@ -1,8 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,16 +20,54 @@
 <body>
 
   <header>
-    <div class="container_header">
+    <nav id="navbar">
       <img class="logo_image" src="./assets/image/icon/Logo.png" alt="Logo supervisão 360° psicologia clinica">
-      <ul class="nav_bar">
-        <li class="nav_list"><a  href="#">Início</a></li>
-        <li><a  href="#">Quem somos</a></li>
-        <li><a  href="#">O que fazemos</a></li>
-        <li><a  href="#">Detalhes</a></li>
-        <li><a  href="#">Fale conosco</a></li>
+
+      <ul class="navbar">
+        <li class="nav-item">
+          <a  href="#">Início</a>
+        </li>
+        <li class="nav-item">
+          <a  href="#">Quem somos</a>
+        </li>
+        <li class="nav-item">
+          <a  href="#">O que fazemos</a>
+        </li>
+        <li class="nav-item">
+          <a  href="#">Detalhes</a>
+        </li>
+        <li class="nav-item">
+          <a  href="#">Fale conosco</a>
+        </li>
+      </ul>
+
+    </nav>
+    
+    <button id="mobile_btn">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+    
+    <div id="mobile_menu">
+      <img class="mobile_logo_image" src="./assets/image/icon/Logo.png" alt="Logo supervisão 360° psicologia clinica">
+      <ul class="mobile_navbar">
+        <li class="nav-item">
+          <a  href="#">Início</a>
+        </li>
+        <li class="nav-item">
+          <a  href="#">Quem somos</a>
+        </li>
+        <li class="nav-item">
+          <a  href="#">O que fazemos</a>
+        </li>
+        <li class="nav-item">
+          <a  href="#">Detalhes</a>
+        </li>
+        <li class="nav-item">
+          <a  href="#">Fale conosco</a>
+        </li>
       </ul>
     </div>
+
   </header>
 
   <section class="banner">
@@ -163,9 +205,11 @@
       <h2>Lembre-se:</h2>
       <p>Você estará sendo supervisionado(a) em 3 abordagens</p>
     </div>
-
   </section>
   
+  <section id="contact">
+    
+  </section>
 </body>
 </html>
 
