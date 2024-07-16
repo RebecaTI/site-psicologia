@@ -4,9 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,13 +14,59 @@
 
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/imports.css">
+
 </head>
 <body>
 
   <header>
-    <nav id="navbar">
-      <img class="logo_image" src="./assets/image/icon/Logo.png" alt="Logo supervisão 360° psicologia clinica">
+    <nav class="nav nav__container">
+      <a href="#">
+        <img class="logo__image" src="./assets/image/icon/Logo.png" alt="Logo supervisão 360° psicologia clinica">
+      </a>
 
+      <div class="nav__menu" id="js-nav__menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <i class="ri-arrow-right-up-line"></i>
+              <span>Início</span>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <i class="ri-arrow-right-up-line"></i>
+              <span>Quem somos</span>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <i class="ri-arrow-right-up-line"></i>
+              <span>O que fazemos</span>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <i class="ri-arrow-right-up-line"></i>
+              <span>Fale conosco</span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="nav__close" id="js-nav__close">
+          <i class="ri-close-large-line"></i>
+        </div>
+      </div>
+
+      <div class="nav__toggle" id="js-nav__toggle">
+        <i class="ri-menu-line"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!-- 
       <ul class="navbar">
         <li class="nav-item">
           <a  href="#">Início</a>
@@ -68,7 +112,7 @@
       </ul>
     </div>
 
-  </header>
+  </header> -->
 
   <section class="banner">
     
@@ -210,6 +254,8 @@
   <section id="contact">
     
   </section>
+
+  <script src="./assets/javascript/script.js"></script>
 </body>
 </html>
 

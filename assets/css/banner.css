@@ -50,7 +50,20 @@
   }
 
   @media screen and (max-width: 1170px){
-    .banner{
-      
+    .banner_txt_1{
+      font-size: 2rem;
+    } 
+
+    .banner_txt_2{
+      font-size: 1rem;
+    }
+
+   .banner_txt_3{
+    font-size: 2.5rem;
+    }
+
+    .banner_psicologia{
+      bottom:30%;
+      left:80%;
     }
   }

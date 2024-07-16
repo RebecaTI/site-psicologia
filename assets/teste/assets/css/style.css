@@ -1,0 +1,72 @@
+:root{
+  --main_background:#F3F4FC;
+
+  --branco: #FFFFFF;
+  --preto: #000000;
+  --azul-_neon: #3BF1F4;
+  --azul-intenso: #070743;
+  --azul_forte: #1C2ECD;
+  --azul:#120AA1;
+
+  /* font family */
+  /* Open Sans =   Sans Serif Collection */
+  --content_font: "Open Sans", sans-serif;
+
+  /* Title Familen Grotesk  font-weight= regular   font-weight:36  */
+  /* Title Familen Grotesk  font-weight= regular   font-weight:32  */
+  --title_font: "Familjen Grotesk", sans-serif;
+}
+
+*{
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+}
+
+html{
+  background:var(--main_background);
+  margin-bottom:200px;
+}
+
+
+/* default margin and padding*/
+#who_we_are,
+#group_details,
+#why_choose_us{
+  background-color: var(--branco); 
+  margin: 40px;
+  padding:20px;
+  border-radius:20px;
+}
+
+/*default sub-tittle line */
+.who_we_are_tittle,
+.group_details_tittle,
+.why_choose_us_tittle{
+  font-family: var(--title_font);
+  text-align:center;
+  margin-bottom:2rem;
+  font-size:2em;
+  position:relative;
+}
+
+.who_we_are_tittle::before,
+.group_details_tittle::before,
+.why_choose_us_tittle::before{
+  content:'';
+  height:3px;
+  width:30%;
+  background:var(--azul_forte);
+  position:absolute;
+  top:100%;
+  left:0;
+  left: 35%;
+  border-radius:80%;
+}
+
+
+
+
+
+
